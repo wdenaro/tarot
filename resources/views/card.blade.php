@@ -15,14 +15,14 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 text-center text-md-left text-lg-left text-xl-left">
                     <h1>{{ $card->card_name }}</h1>
                     <p><b>{{ $card->short }}</b></p>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-lg-3 text-center text-lg-left text-xl-left">
                     <img src="{{ asset('images/decks/universal_waite/' .$card->image) }}">
                 </div>
 
